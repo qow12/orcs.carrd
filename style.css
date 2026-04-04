@@ -28,7 +28,7 @@ html, body{
 }
 
 .bg{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -292,8 +292,7 @@ span{
     }
 
     .bg{
-        position: fixed;
-        height: 100dvh;
+        height: 100vh;
         width: 100%;
         background-position: center;
         background-size: cover;
