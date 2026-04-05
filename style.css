@@ -256,10 +256,10 @@ span{
 
 @keyframes words{
     0%, 30%{
-        content: "Web Developer";
+        content: "Website Developer";
     }
     31%, 60%{
-        content: "Bot Engineer";
+        content: "Discord Bot Enginer";
     }
     61%, 100%{
         content: "Community Manager";
