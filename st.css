@@ -148,7 +148,10 @@ section{
 }
 
 span{
-    color: #9500ff;
+    background: linear-gradient(90deg, #9500ff, #ff00c8);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .home-content h3{
