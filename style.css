@@ -202,9 +202,9 @@ span{
 
 .btn{
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1px;
     border-radius: 4rem;
-    font-size: 1.6rem;
+    font-size: 1px;
     color: #00b4d8;
     letter-spacing: 0.3rem;
     font-weight: 600;
