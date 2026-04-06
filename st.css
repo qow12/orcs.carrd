@@ -211,13 +211,13 @@ span{
 
 .btn{
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1px;
     border-radius: 4rem;
-    font-size: 1.6rem;
-    color: #9500ff;
+    font-size: 1px;
+    color: #00b4d8;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #9500ff;
+    border: 2px solid #00b4d8;
     transition: 0.3s ease;
     cursor: pointer;
 }
