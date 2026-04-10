@@ -153,6 +153,11 @@ span{
     font-weight: 700;
 }
 
+.home-content p{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
 .home-img{
     border-radius: 50%;
 }
@@ -185,7 +190,7 @@ span{
     border: 0.2rem solid #00b4d8;
     font-size: 2rem;
     border-radius: 50%;
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 3rem 1.5rem 2rem 0;
     transition: 0.3s ease;
     color: #00b4d8;
 }
@@ -201,7 +206,7 @@ span{
     display: inline-block;
     padding: 1rem 2.8rem;
     border-radius: 4rem;
-    font-size: 1.6rem;
+    font-size: 0.4rem;
     color: #00b4d8;
     letter-spacing: 0.3rem;
     font-weight: 600;
@@ -215,6 +220,65 @@ span{
     background-color: #00b4d8;
     color: black;
     box-shadow: 0 0 25px #00b4d8;
+}
+
+.spotify-widget{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.spotify-title{
+    font-size: 1.4rem;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.spotify-content{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.spotify-content img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.spotify-info h3{
+    font-size: 1.6rem;
+}
+
+.spotify-info p{
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 5px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+.progress{
+    width: 45%; /* bisa kamu ubah sesuai lagu */
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    opacity: 0.7;
 }
 
 .typing-text{
